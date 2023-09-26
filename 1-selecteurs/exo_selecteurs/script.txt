@@ -1,0 +1,89 @@
+//méthode 1
+
+console.log($("#premierH"));
+console.log($("#premierP"));
+console.log($("#premiereDiv"));
+console.log($("#premierHDiv"));
+console.log($("#premierPDiv"));
+
+//select tous les H1
+
+console.log($("h1"));
+
+//select tous les p
+
+console.log($("p"));
+
+// select tous les éléments direct d'une div
+
+console.log($("div > *"));
+
+console.log($('.div1'));
+//on ajoute des eventlistener sur le click
+/*
+let $premierH = $("#premierH")
+$premierH.click(() => {
+    console.log($premierH.text());
+    //$premierH.text("Bonjour je suis premierH")
+})
+$premierH.mouseover(() => {
+    $premierH.text("Bonjour je suis premierH")
+})
+let $premierP = $('#premierP')
+$premierP.click(() => {
+    console.log($premierP.text());
+    //$premierP.text("Bonjour je suis premierP")
+})
+$premierP.mouseover(() => {
+    $premierP.text("Bonjour je suis premierP")
+})
+let $premierHDiv = $('#premierHDiv')
+$premierHDiv.click(() => {
+    console.log($premierHDiv.text());
+    //$premierHDiv.text("Bonjour je suis premierHDiv")
+})
+$premierHDiv.mouseover(() => {
+    $premierHDiv.text("Bonjour je suis premierHDiv")
+})
+let $premierPDiv = $('#premierPDiv')
+$premierPDiv.click(() => {
+    console.log($premierPDiv.text());
+    //$premierPDiv.text("Bonjour je suis premierPDiv")
+})
+$premierPDiv.mouseover(() => {
+    $premierPDiv.text("Bonjour je suis premierPDiv")
+})
+*/
+
+let $premierH = $("#premierH")
+$premierH.click(() => {
+    console.log($premierH.text());
+    $premierH.html("<h1>je suis premierH clique!</h1>")
+})
+$premierH.mouseover(() => {
+    $premierH.html("<h1>je suis premierH over!</h1>")
+})
+let $premierP = $('#premierP')
+$premierP.click(() => {
+    console.log($premierP.text());
+    $premierP.html("<p>je sui premierP clique!</p>")
+})
+$premierP.mouseover(() => {
+    $premierP.html("<p>je sui premierP over!</p>")
+})
+let $premierHDiv = $('#premierHDiv')
+$premierHDiv.click(() => {
+    console.log($premierHDiv.text());
+    $premierHDiv.html("<h1>je sui premierHDiv clique!</h1>")
+})
+$premierHDiv.mouseover(() => {
+    $premierHDiv.html("<h1>je sui premierHDiv over!</h1>")
+})
+let $premierPDiv = $('#premierPDiv')
+$premierPDiv.click(() => {
+    console.log($premierPDiv.text());
+    $premierPDiv.html("<p>je sui premierPDiv clique!</p>")
+})
+$premierPDiv.mouseover(() => {
+    $premierPDiv.html("<p>je sui premierPDiv over!</p>")
+})

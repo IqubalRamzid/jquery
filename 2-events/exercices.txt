@@ -1,0 +1,5 @@
+1 - colorier le button en utilisant( background-color en 'coral') quand vous le survoler 
+
+2 - augmenter la taille du texte de l'élément #dbl quand vous cliquez dessus
+
+3 - afficher un alert quand vous appuyez sur n'importe quel button du clavier
